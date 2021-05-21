@@ -1,0 +1,65 @@
+icon ul{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left:86%;
+    transform: translate(-50%,-50%);
+}
+icon ul li{
+    list-style-type: none;
+}
+icon ul li a{
+    padding-top:6px; 
+    padding-left: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+    margin-left:5px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 1;
+}
+icon ul li a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+icon ul li a:hover .fa{
+    transform: rotateY(360deg);
+    color: #fff;
+}
+icon ul li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+icon ul li a:hover:before{
+    top:0;
+}
+icon ul li:nth-child(1) a:before{
+    background: #e4405f;
+}
+icon ul li:nth-child(2) a:before{
+    background: #cd201f;
+}
+icon ul li:nth-child(3) a:before{
+    background: #dd4b39;
+}
+icon ul li:nth-child(4) a:before{
+    background: #bd081c;
+}

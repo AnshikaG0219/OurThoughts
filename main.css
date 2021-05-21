@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montez');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ranga');
+
+body{
+    margin: 0px 0px 0px 0px;
+    }
+header{
+    background:white;
+    color:black;
+    padding: 10px 0px 8px 20px;
+    height: 100px;
+}
+header h1{
+    display: inline;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    float: left;
+    margin:0px 10px 2px 2px; 
+    
+}
+nav ul{
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color:black;
+    float: left;
+    margin-left:20px;
+    margin-top: 60px;
+    padding-left: 5px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+}
+#nav{
+   font-family: 'Montez', cursive;
+}
+.border{
+    background-color: #53868B;
+    height: 5px;
+}
+.m:hover{
+    background-color: buttonface;
+    padding: 90px 10px 0.2px 10px;
+}
+
+

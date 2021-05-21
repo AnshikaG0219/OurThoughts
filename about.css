@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+body{
+    background-image: url(photos/wf.jpg) ;
+}
+.box{
+    width: 50%;
+    height: auto;
+    background-image: url(photos/bf.jpg); 
+   margin: 0px 100px 0px 25%;
+   padding-bottom: 5px;
+   color: black;
+  
+   
+}
+.myp{
+    background-image: url(photos/myp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 502px;
+    height: 500px;
+    margin-left:10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    display: inline-block;
+    border: 5px solid buttonhighlight;
+    
+}
+.brd{
+    background-color: green;
+    height: 50px;
+    margin-top: 15px;
+   padding-left:150px;
+   padding-top: 2%;
+   font-size: 40px;
+   font-family: 'Josefin Sans', sans-serif;
+   color: whitesmoke;
+}
+.text{
+     padding-left: 25px;
+     padding-right: 20px;
+     font-family: 'Josefin Sans', sans-serif;
+     color: gainsboro;
+}

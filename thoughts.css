@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body{
+    background-image: url(photos/wf.jpg);
+}
+.content{
+    width: 600px;
+    height: auto;
+    margin-left: 23%;
+    background: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.first{
+    border: 1px solid ;
+    height: auto;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 2%;
+    
+}
+main{
+    margin-left:145px; 
+    font-size: 20px;
+}
+#one{
+    font-family: 'Cabin', sans-serif;
+    margin-left: 130px;
+    text-decoration: none;
+    color: #00688B;
+}
+p{
+    color: black;
+    font-size: 18px;
+}
+cont{
+     font-size: 18px;
+}
+
